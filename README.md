@@ -10,5 +10,9 @@ direction_fined.txt
 ↓  
 python3 gen_movement.py  
 ↓  
-movement.txt
+movement.txt  
+↓  
+python3 time_between_crossings.py  
+↓  
+时间差（12,23,34,45,56,67）
 
