@@ -59,11 +59,12 @@ for i in range(1, len(lines_movement)):
                 print('wrong!!!!')
 
 for time_using in [time12, time23, time34, time45, time56, time67]:        
+    '''
     for i in range(len(time_using)):
         if time_using[i] < 0:
             #print(time12[i])
             time_using[i] = 0
-        if time_using[i] > 500:
+        if time_using[i] > 100:
             #print(time12[i])
             time_using[i] = 0
 
@@ -74,6 +75,11 @@ for time_using in [time12, time23, time34, time45, time56, time67]:
             counter += 1
             s += i
     print(s / counter)
-
+    '''
+    for i in range(len(time_using)):
+        if time_using[i] < 0:
+            #print(time12[i])
+            time_using[i] = 10000
+    print(min(time_using))
 
 
